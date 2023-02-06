@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header y footer*/
+header, footer {
+    background-color: #222222;
+    color:white;
+}
+
+/* header */
+header {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 5.5rem 0rem;
+    background-color:  #E5E5E5;
+}
+.caja {
+    width: 490px;
+    height: 350px;
+    padding: 1rem;
+    border-radius: 1%;
+}
+h2 {
+    color:#FC200C;
+    text-align: center;
+    font-weight: 700;
+}
+.uno {
+    background-image: url("../img/delivery.jpg");
+}
+.dos {
+    background-color: white;
+}
+.subcajas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    height: 70%;
+}
+.one {
+    padding: 1.5rem;
+    flex-direction: column;
+    line-height: 18.75px;
+    font-weight: bold;
+}
+.two {
+    height: 50%;
+    align-self: center;
+}
+
+/* footer */
+footer {
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+.lista {
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 135px;
+}
+footer .logo {
+    margin: 1rem;
+}
+    
